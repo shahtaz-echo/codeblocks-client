@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.code {
+  font-family: "Source Code Pro", monospace;
+}
+
+.cb_editor .ProseMirror {
+  outline: none !important;
+}

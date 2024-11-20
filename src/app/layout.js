@@ -1,3 +1,4 @@
+import { Toaster } from "@/components/ui/toaster";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -19,11 +20,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
